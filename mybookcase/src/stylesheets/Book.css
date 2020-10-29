@@ -1,0 +1,7 @@
+.card-img-top{
+      max-width: max-content;
+      height: max-content;  
+}
+.description {
+   overflow-y:scroll ; 
+}
