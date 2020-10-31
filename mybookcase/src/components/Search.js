@@ -3,8 +3,10 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
+import '../stylesheets/Search.css';
 
-
+const propTypes={};
+const defaultProps= {};
 const Search = (props) => {
  
     const handleSubmit = (event) => {
@@ -13,7 +15,7 @@ const Search = (props) => {
         };
         
     return (
-        <Form onSubmit={handleSubmit}> 
+        <Form onSubmit={handleSubmit} className="Searchbar"> 
         <Row>
             <Col> {props.keyword && 'Searching for term:' + props.keyword}
         <input 
@@ -30,4 +32,7 @@ const Search = (props) => {
         </Form>
     )
     }
+    Search.propTypes=propTypes;
+    Search.defaultProps=defaultProps;
+    
     export default Search;

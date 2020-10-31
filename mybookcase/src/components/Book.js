@@ -15,7 +15,6 @@ const Book = (props) => {
        }
     } = props.book;
 
-
   
   const renderAmount = () => {
     if (
@@ -48,10 +47,8 @@ const Book = (props) => {
           <Card.Text>
               {description}
           </Card.Text>
-        <Card.Footer>
           <Button onClick={() => props.addBook(id)}> Add +</Button>
           <Button onClick={() => props.removeBook(id)}> Remove -</Button> 
-        </Card.Footer>
         </Card.Body>
     </Card>
     </CardGroup>

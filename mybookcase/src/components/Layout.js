@@ -8,7 +8,6 @@ export const Layout = (props) => (
      {props.children}
 </Row>
 
-
 </Container>
 )
 

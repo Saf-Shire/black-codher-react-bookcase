@@ -10,7 +10,7 @@ import Error from './components/Error'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './stylesheets/App.css';
 import {Layout} from './components/Layout';
-// import Pagination from './components/Pagination'
+
 
 
 
@@ -61,9 +61,8 @@ const App = (props) => {
         <Route exact path="/" render={() => (
             <React.Fragment>
                 <Header />
-                { <Search findBooks={findBooks} keyword={keyword} setKeyword={setKeyword}  /> }
-                {<BookList books={books} addBook={addBook} />}
-            {/* <Pagination booksPerPage={booksPerPage} totalBooks={books.length} paginate={paginate}/> */}
+                <Search findBooks={findBooks} keyword={keyword} setKeyword={setKeyword}  /> 
+                <BookList books={books} addBook={addBook} removeBook={removeBook}/>
             </React.Fragment>
             )} />
 
@@ -80,7 +79,6 @@ const App = (props) => {
                 <About />
             </React.Fragment>
                 )} />
-
 
             <Route> <Error/> </Route>
             </Switch>
