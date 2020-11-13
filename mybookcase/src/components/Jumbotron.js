@@ -28,13 +28,12 @@ const Styles = styled.div`
 const Jumbotron = () => {
     return (
     <Styles>
-    <Jumbo fluid className="jumbo">
-      <div className="overlay"></div>
-      <Container>
-
-        <p>Build your dream bookshelf and add it to your bookcase</p>
-      </Container>
-    </Jumbo>
+      <Jumbo fluid className="jumbo">
+          <div className="overlay"></div>
+          <Container>
+             <p>Build your dream bookshelf and add it to your bookcase</p>
+          </Container>
+      </Jumbo>
   </Styles>
     )
     

@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../stylesheets/Search.css';
 import { Container } from 'react-bootstrap';
-import InputGroup from 'react-bootstrap';
 
 
 const propTypes={};
@@ -23,7 +22,7 @@ const Search = (props) => {
     return (
         <>
         <Container>
-          <Form.Row onSubmit={handleSubmit} className="Searchbar">
+          <Form onSubmit={handleSubmit} className="Searchbar">
               <Form.Label> Search for a Book </Form.Label>
                     <Form.Control
                         className="search-field-1"
@@ -41,8 +40,8 @@ const Search = (props) => {
                         onChange={ (e) => setByAuthor(e.target.value)}
                         placeholder="Input Author(s) name..."
                     />
-                <Button as="input" type="submit" value="Submit" active/>{' '}                 
-            </Form.Row>  
+                <Button as="input" type="Submit" active/>{' '}                 
+            </Form>  
         </Container>
         </>
         )

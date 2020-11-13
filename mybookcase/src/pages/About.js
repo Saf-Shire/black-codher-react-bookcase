@@ -19,8 +19,7 @@ const About= () => {
                             If you change your mind you can remove it by clicking "Remove - ".
                         </p>
                 </div>   
-            </Container>
-              
+            </Container> 
         </React.Fragment>
     
     );

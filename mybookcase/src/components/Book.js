@@ -84,8 +84,5 @@ Book.propTypes ={
   }),
 };
 
-// Book.defaultProps ={
-//   title:'This is the title'
-// };
 
 export default Book;
