@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/Pagination.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 
 const Pagination = ({ booksPerPage, totalBooks, paginate }) => {
@@ -15,7 +16,8 @@ const Pagination = ({ booksPerPage, totalBooks, paginate }) => {
     }
 
     return (
-      <nav>
+      <Container>
+      <nav aria-label="Page navigation">
         <ul className="pagination">
           {pageNumbers.map(number => (
             <li key={number} className="page-item">
@@ -26,6 +28,7 @@ const Pagination = ({ booksPerPage, totalBooks, paginate }) => {
           ))}
         </ul>
       </nav>
+     </Container>
     );
   };
   

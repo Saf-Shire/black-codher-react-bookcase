@@ -7,22 +7,15 @@
         /* Large devices (laptops/desktops, 992px and up) */
         @media only screen and (min-width: 992px) {
         .container {
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
         }
         }
         /* Extra large devices (large laptops and desktops, 1200px and up) */
         @media only screen and (min-width: 1200px) {}
 
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
         * {
-            box-sizing: border-box fill;
-            margin: 5px;
-            padding: 5px;
-            font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-            background-image: src="img.1.jpeg";
+         font-family: 'Noto Sans KR', sans-serif  
         }
-   
-        nav.{
-            /* align-items: center; */
-        }
-   
+      

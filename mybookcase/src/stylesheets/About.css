@@ -1,0 +1,18 @@
+
+#about{
+    display: flex;
+    justify-content: center;
+    padding:10px ;
+    margin-top:.5rem;
+}
+
+h2 {
+    margin: 20px;
+    padding: 55px;
+    font-weight: 800px;
+
+}
+ h2,p {
+    text-align: center;
+    font-size: 35px; ;
+ }

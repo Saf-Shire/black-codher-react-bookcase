@@ -1,7 +1,46 @@
-.card-img-top{
-      max-width: max-content;
-      height: max-content;  
+.card {
+      padding: 10px;
+      width: 50rem;
+      height:600px ;
+     
+      
 }
-.description {
+.card-body{
+     height:fit-content ;
+     max-width: fit-content;
+     text-align: center; 
+}
+.card-title .card-subtitle {
+      font-weight: bold; 
+}
+.card-subtitle{
+      font: size 0.75rem; ;
+}
+.card-group{
+      padding:7px ;
+     border: 7px  solid rgb(0, 32, 128); 
+     border-radius: 8px ; 
+}
+   
+.card-img{
+      max-width:fit-content;
+      height:170px;
+      justify-content: center;
+      padding:10px;
+}
+
+.bookDescription {
+    border: 5px  solid rgb(0, 32, 128);
+    border-radius: 5px; 
    overflow-y:scroll ; 
+   height:200px ;
+   font-size: 16px; ;
+}
+
+
+#controlButtons {
+text-align: center;
+justify-content:end;
+padding:12px ;
+margin: 10px ;
 }

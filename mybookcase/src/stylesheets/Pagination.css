@@ -1,4 +1,10 @@
 .pagination {
- justify-content: flex-end;   
+ justify-content: center; 
+ display: inline-block;
+ padding:10px ;  
 }
 
+.page-item{
+    padding:8px ;
+   
+}

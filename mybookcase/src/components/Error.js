@@ -3,17 +3,6 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 
 
-// const Error = () => {
-//     return(
-//         <React.Fragment>
-//             <div>
-//                     <h3> 404 error </h3>
-//                     <p>please return to previous page </p>
-//                 </div>
-//         </React.Fragment>
-    
-//     );
-// }
 
 function Error () {
     const [show, setShow] = useState(true);

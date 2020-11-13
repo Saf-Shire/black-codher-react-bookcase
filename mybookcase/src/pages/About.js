@@ -1,18 +1,26 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import '../stylesheets/About.css';
 
 
 const About= () => {
-    return(
+    return (
         <React.Fragment>
-            <div>
-                    <h2>Welcome to the Bookcase Application</h2>
-                    <p>The following application was created by Safia.
-                    This bookcase app displays a list of books that a user can
-                    save to a local bookcase
-                    The "Add + " button can be clicked to add a book to your bookcase.
-                    Whereas the search bar can find the latest books by title.</p>
-                </div>
+            <Container fluid id="about">
+               <div >
+                    <h2>Welcome to Bookish</h2>
+                         <p>Bookish is an app that displays a list of books
+                            but also allows you to search for any other books.
+                            <br></br>
+                            The user can search for their book either by keyword or by author.
+                            <br></br>
+                            The "Add + " button will save it to your local bookcase where you can view your personal booklist.
+                            <br></br>
+                            If you change your mind you can remove it by clicking "Remove - ".
+                        </p>
+                </div>   
+            </Container>
+              
         </React.Fragment>
     
     );
