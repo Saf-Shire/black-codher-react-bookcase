@@ -1,0 +1,16 @@
+
+.Searchbar {
+    justify-content: center;
+    font-size: 18px;
+    padding:20px ;
+    margin: 10px;
+}
+
+.search-field {
+    margin:15px ;
+}
+
+.btn {
+  margin: 20px;
+}
+
